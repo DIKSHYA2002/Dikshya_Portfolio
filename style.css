@@ -1,0 +1,209 @@
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.header{
+  background-color: black;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.photo img {
+    height: 90%;
+    width: 100%;
+    border-bottom: 5px  yellow solid;
+    border-top: 5px  yellow solid;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.resume-downloader button{
+     height: 50px;
+     width: 100px;
+     border-radius: 30px;
+     background-color: rgb(11, 10, 10);
+     color: yellow;
+     border-bottom: yellow solid 4px;
+     cursor: pointer;
+}
+
+.header{
+    padding: 30px;
+   
+}
+.about{
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+    align-items: center;
+   
+  
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.social-media-links ul{
+    list-style-type: none;
+    display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+.social-media-links li{
+    padding: 10px;
+}
+.aboutme{
+    text-align: center;
+ margin-top: 30px;   
+ line-height: 50px;
+ margin-top: 80px;
+
+}
+.designation{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.career-objective{
+    color: white;
+    background-color: rgb(2, 2, 2);
+    height: 40vh;
+    text-align: center;
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.objective{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.skills , .education , .personal-details{
+    background-color: black;
+    color: white;
+   
+    padding: 10px;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar {
+    width: 20px;
+   
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: yellow;
+    border-radius: 100px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: white;
+  }
+table{
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+table td ,th{
+    padding: 30px;
+    border: 1px yellow solid ;
+    
+}
+ .personal-details th{
+    text-transform: uppercase;
+}
+.top-head{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navs a{
+color: yellow;
+text-decoration: none;
+padding: 10px;
+border: 2px yellow solid;
+border-radius: 30px;
+
+}
+.navs{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        background-color: rgb(0, 0, 0);
+          height: 50vh;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+         
+      }
+      .name{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .header{
+        padding: 10px;
+       
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+         width: 50%;
+        align-items: center;
+        height: 50%;
+        margin: 0;
+    }
+    .photo img {
+        height: 90%;
+        width: 100%;
+        border-bottom: 5px  yellow solid;
+        border-top: 5px  yellow solid;border-radius: 30px;
+    }
+    .social-media-links ul{
+        list-style-type: none;
+        display: flex;
+      flex-direction: row;
+      font-size: 10px;
+      margin-right: 50px;
+      
+    }
+    .social-media-links li{
+        padding: 10px;
+    }
+    .aboutme{
+        text-align: center;
+     margin-top: 20px;   
+     line-height: 40px;
+
+    }
+    .designation{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .top-head{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 900;
+        color: white;
+    }
+    
+}
