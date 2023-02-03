@@ -245,13 +245,13 @@ margin: 5px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      padding: 50px;
+      padding: 5px;
   }
   .project{
   
       padding: 50px;
       border: 5px yellow solid;
-      margin: 20px;
+      margin: 15px;
       border-radius: 10px;
   
   }
