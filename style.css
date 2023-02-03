@@ -150,14 +150,14 @@ border-radius: 30px;
 @media screen and (max-width: 768px){
     .header{
         background-color: rgb(0, 0, 0);
-          height: 50vh;
+          height: 30vh;
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
          
       }
       .name{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
     }
     .header{
@@ -169,7 +169,7 @@ border-radius: 30px;
         flex-direction: column;
          width: 50%;
         align-items: center;
-        height: 50%;
+        height: 40%;
         margin: 0;
     }
     .photo img {
@@ -182,7 +182,7 @@ border-radius: 30px;
         list-style-type: none;
         display: flex;
       flex-direction: row;
-      font-size: 10px;
+      font-size: 5px;
       margin-right: 50px;
       
     }
@@ -192,7 +192,7 @@ border-radius: 30px;
     .aboutme{
         text-align: center;
      margin-top: 20px;   
-     line-height: 40px;
+     line-height: 25px;
 
     }
     .designation{
@@ -205,5 +205,15 @@ border-radius: 30px;
         font-weight: 900;
         color: white;
     }
-    
+    .resume-downloader button{
+        height: 30px;
+        width: 100px;
+        border-radius: 30px;
+        background-color: rgb(11, 10, 10);
+        color: yellow;
+        border-bottom: yellow solid 4px;
+        cursor: pointer;
+        font-size: 10px;
+   }
+   
 }
