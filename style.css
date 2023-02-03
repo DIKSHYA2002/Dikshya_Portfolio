@@ -146,53 +146,7 @@ margin: 5px;
     margin: 20px;
     justify-content: space-around;
 }
-.Proffesional-Training {
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  
-  
-}
-.Proffesional-Training .name , .projectname{
-    font-size: 20px;
-    
-}
-.training{
-    background-color: gray;
-    padding: 30px;
-    color: black;
-    border-radius: 10px;
-    margin: 20px;
-}
-.desc{
-    font-style: italic;
-}
 
-.projectlist{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 50px;
-}
-.project{
-
-    padding: 50px;
-    border: 5px yellow solid;
-    margin: 20px;
-    border-radius: 10px;
-
-}
-.projectname , .role{
-    color: yellow;
-    font-weight: 900;
-    margin: 10px;
-}
-
-.role{
-    margin-left: 60%;
-}
 @media screen and (max-width: 768px){
     .header{
         background-color: rgb(0, 0, 0);
@@ -263,3 +217,50 @@ margin: 5px;
    }
    
 }
+.Proffesional-Training {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+  }
+  .Proffesional-Training .name , .projectname{
+      font-size: 20px;
+      
+  }
+  .training{
+      background-color: gray;
+      padding: 30px;
+      color: black;
+      border-radius: 10px;
+      margin: 20px;
+  }
+  .desc{
+      font-style: italic;
+  }
+  
+  .projectlist{
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 50px;
+  }
+  .project{
+  
+      padding: 50px;
+      border: 5px yellow solid;
+      margin: 20px;
+      border-radius: 10px;
+  
+  }
+  .projectname , .role{
+      color: yellow;
+      font-weight: 900;
+      margin: 10px;
+  }
+  
+  .role{
+      margin-left: 60%;
+  }
